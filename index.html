@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maxim Sergeichik</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+
+	<nav class="header">
+		<span class="logo">резюме</span>
+		<ul>
+			<li><a href="#">обо мне</a></li>
+			<li><a href="#">портфолио</a></li>
+			<li><a href="#">достижения</a></li>
+			<li><a href="#cont">контакты</a></li>
+		</ul>	
+	</nav>
+
+	<div class="banner">
+		<h2>20.05.2020</h2>
+		<h1>Сергейчик Максим Петрович</h1>
+	</div>
+
+	<div class="resume">
+		<div class="first photo">
+			<div class="image-container">
+				<img src="img/moyphoto.jpg">
+			</div>
+			<span class="caption">Это я</span>
+		</div>
+
+		<p>
+			<span class="first-letter">M</span>еня зовут Максим и мне 15 лет. Родился и живу я в сталице Беларуси, городе Минске. На данный момент я учусь в девятом классе средней школы № 161 г.Минска. Успеваемость высокая. Средний балл никогда не падал ниже 9.2, а единственная стабильная восьмерка была по обществоведению. Лучше всего мне даются математика, физика, информатика. В школе планирую не оставаться, а поступать в лицей при БГУ на информатико физический профиль. Кроме общего образования закончилд компьютерную академию на курсах Teen и Jun.
+		</p>
+
+		<div class="photo">
+			<div class="image-container">
+				<img src="img/itland.jpg">
+			</div>
+			<span class="caption">Частная компьютерная академия ООО "Айтиландия"</span>
+		</div>
+
+		<p>
+			<span class="first-letter">З</span>десь я изучил такие программы как Adoub Photoshop, Adoub Illustrator, Adoub Premier Pro, Adoub Animate, Cinema 4D, 3D Unity. Также были изучены языки программирования: python3, C#, Arduino, Scretch2, JS, html, css. Из всего вышеперечисленного лучше всего я владею питоном, C#, Arduino, фотошопом и премьером.
+		</p>
+
+		<p>
+			<span class="first-letter">К</span>асательно моего характера, я мало могу сказать, потому что то, что я говорю о себе, несколько расходится с тем, что обо мне говорят другие. Точно можно сказать, что с новыми людьми я готов общаться не сразу. И даже с давними знакомыми я часто неразговорчив. Монотонная работа мне быстро надоедает, так что её я выполняю только по необходимости. При выполнении проектов нужен мотиватор.
+		</p>
+
+		<div class="vs">
+			<div class="photo">
+				<div class="image-container">
+					<img src="img/i-me.jpg">
+				</div>
+				<span class="caption">То, как я характеризую сам себя</span>
+			</div>
+
+			<div class="photo">
+				<div class="image-container">
+					<img src="img/athes-me.jpg">
+				</div>
+				<span class="caption">Как меня характеризуют другие</span>
+			</div>
+		</div>
+		<p>
+			<span class="first-letter">Л</span>юблю играть в настольный теннис и волейбол, не против поиграть в настольный футбол. Также увлекаюсь программированием и компьютерной графикой. Люблю читать, но не всякую книгу. В основном читаю фантастику, приключения, детективы, научную фантастику. Любимый автор - Клайв Стейплз Льюис, любимой книги нет, но любимая серия книг - "Хроники Нарнии". Сейчас пытаюсь прочитать ее на оригинальном, то есть английском, языке. Люблю животных и мечтаю жить на ферме, при этом работать программистом.
+		</p>
+
+		<div class="photo Narnia">
+			<div class="image-container">
+				<img id="slid" src="img/Narnia1.jpg"
+				onmouseover="stop()"
+				onmousemove="stop()">
+			</div>
+			<p class="caption">Клайв Стейплз Льюис "Хроники Нарниии"</p>
+			<span class="knop caption" onclick="prevClick()">Prev</span>
+			<ol id="list" class="caption">
+				<li id="li1" onclick="liClick(this)">1</li>
+				<li id="li2" onclick="liClick(this)">2</li>
+				<li id="li3" onclick="liClick(this)">3</li>
+				<li id="li4" onclick="liClick(this)">4</li>
+				<li id="li5" onclick="liClick(this)">5</li>
+				<li id="li6" onclick="liClick(this)">6</li>
+				<li id="li7" onclick="liClick(this)">7</li>
+				<li id="li8" onclick="liClick(this)">8</li>
+			</ol>
+			<span class="knop caption" onclick="nextClick()">Next</span>
+		</div>
+
+		<p>
+			<span class="first-letter">Я</span> верю в Бога и Иисуса Христа, хожу в церковь ХВЕ(христиан веры евангельской) Благодать г.Минска и служу там. По конфессии я протестант пятидесятник.
+		</p>
+		
+	</div>
+
+	<a name="cont"></a><footer>
+		<div class="image-container">
+			<img src="img/lastPhoto.jpg">
+		</div>
+		<div class="content">
+			<p>
+				<span class="author">Максим Петрович</span>, мое резюме в настоящем времени.</p>
+		</div>
+		<ul class="menu2">
+		  <li><a href="https://vk.com/id331541782" target="_blank"><i class="fa fa-vk"></i></a></li>
+		  <li><a href="https://t.me/rnflkc" target="_blank"><i class="fa fa-telegram"></i></a></li>
+		  <li><a href="https://www.instagram.com/maxim_sergeichik/"><i class="fa fa-instagram" target="_blank"></i></a></li>
+		  <li><a href="mailto:rnflkcumyc@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a></li>
+		  <li id="nomer"><a href="tel: +375 29 987-71-76">+375 29 987-71-76 (A1)</a></li>
+		  <li id="le">Сайт создал М.П.Сергейчик. Последнее обновление 27.05.2020</li>
+		</ul>
+	</footer>
+
+
+
+
+
+<script src="script/script.js"></script>
+<script src="script/slider.js"></script>
+</body>
+</html>
